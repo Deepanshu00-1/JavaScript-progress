@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Keyboard</title>
+</head>
+<body>
+  <textarea id="inputArea1" rows="4" cols="50"></textarea>
+  <textarea id="inputArea2" rows="4" cols="50"></textarea>
+  <!-- Other input areas can be added as needed -->
+
+  <script>
+    // Get references to all the input areas
+    const inputAreas = document.querySelectorAll('textarea');
+
+    // Add event listener for the backspace key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Backspace') {
+        // Loop through each input area
+        inputAreas.forEach(function(inputArea) {
+          // Get the current value of the input area
+          let value = inputArea.value;
+          // Remove the last character from the value
+          value = value.slice(0, -1);
+          // Update the input area with the modified value
+          inputArea.value = value;
+        });
+      }
+    });
+  </script>
+</body>
+</html>

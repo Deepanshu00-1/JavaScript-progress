@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #753682, #bf2e34 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 60%;
+  height: 600px;
+  /* background-color: rgb(255, 233, 205); */
+  display: flex;
+  align-items: center;
+  
+}
+.player0 {
+  width: 50%;
+  height: 100%;
+  background-color: #d6b0df;
+  text-align: center;
+}
+.player1 {
+  width: 50%;
+  height: 100%;
+  background-color: #b385bd;
+  text-align: center;
+}
+.newgame {
+  width: 140px;
+  height: 5%;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  margin-left: 335px;
+  margin-bottom: 500px;
+  cursor: pointer;
+  position: fixed;
+}
+.rolldice{
+  width: 140px;
+  height: 5%;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 340px;
+  cursor: pointer;
+  position: fixed;
+}
+.hold{
+  width: 140px;
+  height: 5%;
+  border-radius: 50px;
+  border: none;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 340px;
+  cursor: pointer;
+  position: fixed;
+} 
+.dice{
+  width: 70px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  margin-left: 360px;
+  margin-bottom: 280px;
+  border-radius: 10px;
+}
+.roll{
+  display: none;
+}
+/* #dice1{
+  display: none;
+}
+#dice2{
+  display: none;
+}
+#dice3{
+  display: none;
+}
+#dice4{
+  display: none;
+}
+#dice5{
+  display: none;
+}
+#dice6{
+  display: none;
+} */
+.player0 h1{
+  margin-top: 80px;
+  font-size: 30px;
+}
+.player0 p{
+  margin-top: 15px;
+  font-size: 50px;
+  color: rgb(247, 58, 105);
+}
+.player1 h1{
+  margin-top: 80px;
+  font-size: 30px;
+}
+.player1 p{
+  margin-top: 15px;
+  font-size: 50px;
+  color: rgb(247, 58, 105);
+}
+.label0{
+  width: 130px;
+  height: 80px;
+  background-color: rgb(247, 58, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+#current0{
+  position: absolute;
+  color: white;
+  margin-top: -25px;
+}
+#score0{
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+.label1{
+  width: 130px;
+  height: 80px;
+  background-color: rgb(247, 58, 105);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+#score1{
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+#current1{
+  position: absolute;
+  color: white;
+  margin-top: -25px;
+}

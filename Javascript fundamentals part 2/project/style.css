@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(199, 236, 236);
+}
+.header{
+    height: 70px;
+    width: 100%;
+    /* background-color: thistle; */
+    display: flex;
+}
+.name{
+    width: 20%;
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.name h2{
+    font-family: cursive;
+    margin-top: 18px;
+    font-size: x-large;
+}
+.nav{
+    width: 50%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    margin-left: 90px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    font-size: larger;
+    border: 1px solid transparent;
+    border-radius: 8%;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li:hover{
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.social{
+    width: 30%;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white
+}
+.social i{
+    font-size: x-large;
+    color: black;
+}
+.social button{
+    font-size: larger;
+    cursor: pointer;
+}
+.body{
+    width: 100%;
+    height: 1000px;
+    /* background-color: rgb(144, 184, 219); */
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    background-image: url(deepanshu.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+}
+.personalinfo{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+.info{
+    margin-top: 130px;
+    margin-left: 40px;
+}
+.footer{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(27, 26, 26);
+}
